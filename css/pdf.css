@@ -1,0 +1,93 @@
+body{
+    position: relative;
+    width: 21em;
+    height: 29.7em;
+    margin: 0 auto;
+    color: black;
+    background: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+header{
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+#logo{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+#logo img {
+    width: 10px;
+    height: 10px;
+}
+h1{
+    border-top: 1px solid rgb(151, 8, 27);
+    border-bottom: 1px solid rgb(151, 8, 27);
+    color: rgb(151, 8, 27);
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 20px 0;
+    background: url(../img/dimension.png);
+}
+#proyecto{
+    float: left;
+    color: black;
+}
+#proyecto span{
+    color: rgb(151, 8, 27);;
+    text-align: right;
+    width: 52px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+#info{
+    float: right;
+    text-align: right;
+}
+#proyecto div{
+    font-size: 12px;
+}
+
+table{
+    background-color: #FFFFFF;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+th,td{
+    border-bottom: solid 5px ;
+    padding: 20;
+    font-size: 1em;
+}
+
+
+thead th.ser{
+    background-color:rgb(151, 8, 27) ;
+    border-bottom: solid 5px ;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+
+/* 
+table td.total{
+    font-size: 30px;
+    color: rgb(151, 8, 27);
+}
+table td.grtotal{
+    border-top: 1px solid rgb(151, 8, 27); 
+}*/
+#nota .not{
+    margin-top: 0pt;
+    color: rgb(115,117,93);
+    font-size: 1.2em;
+} 
